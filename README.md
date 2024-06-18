@@ -9,7 +9,7 @@ Some of the implementation details of the paper are as follows:
 - We adapted the U-Net architecture used in `Guided-Diffusion`, which gives a substantial boost to sample quality.
 - We used the attention mechanism in low-resolution features (16×16) like vanilla `DDPM`.
 - We encode the 𝛾 rather than 𝑡 in `Palette` and embed it with affine transformation.
-- We fix the variance $𝛴__𝜃(𝑥__𝑡,𝑡)$ to a constant during the inference as described in `Palette`.
+-We fix the variance $$𝛴_𝜃(𝑥_𝑡,𝑡)$$ to a constant during the inference as described in `Palette`.
 
 ### Prerequisites
 
