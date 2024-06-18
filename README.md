@@ -34,6 +34,6 @@ For questions about our paper or code, please contact ([qazitayeba@gmail.com](ht
 ### Acknowledge
 
 Our code is built upon the work of:
-[Image Super-Resolution via Iterative Refinement](https://arxiv.org/pdf/2104.07636.pdf)
-[https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement]()
+- [Image Super-Resolution via Iterative Refinement](https://arxiv.org/pdf/2104.07636.pdf)
+- [https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement]()
 
