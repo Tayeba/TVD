@@ -4,12 +4,26 @@
 ### Brief
 This is an official implementation of **THERMAL VIDEODIFF (TVD): A DIFFUSION ARCHITECTURE FOR THERMAL VIDEO SYNTHESIS** by PyTorch.
 
-Some of the implementation details of the paper are as follows:
+We list the hyperparameters, training configurations, and computational resources utilized for our TVDv1 model.
 
-- We adapted the U-Net architecture used in `Guided-Diffusion`, which gives a substantial boost to sample quality.
-- We used the attention mechanism in low-resolution features (16×16) like vanilla `DDPM`.
-- We encode the 𝛾 rather than 𝑡 in `Palette` and embed it with affine transformation.
--We fix the variance $$𝛴_𝜃(𝑥_𝑡,𝑡)$$ to a constant during the inference as described in `Palette`.
+- Base channels: 256
+- Optimizer: Adam (β1 = 0.9, β2 = 0.99)
+- Channel multipliers: 1, 2, 4, 8
+- Learning rate: 0.0003
+- Blocks per resolution: 2
+- Batch size: 16
+- Attention resolutions: 8, 16, 32
+- EMA: 0.9999
+- Attention head dimension: 64
+- Dropout: 0.0
+- Training hardware: NVIDA RTX A6000 48GB GPU
+- Training steps: 500000
+- Diffusion noise schedule: cosine
+- Noise schedule log SNR range: [−20, 20]
+- Sampling timesteps: 1000
+- Video resolution: 16x64x64
+- Sampling log-variance interpolation: γ = 0.3
+- Weight decay: 0.0 
 
 ### Prerequisites
 
