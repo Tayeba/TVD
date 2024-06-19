@@ -23,7 +23,9 @@ We list the hyperparameters, training configurations, and computational resource
 - Sampling timesteps: 1000
 - Video resolution: 16x64x64
 - Sampling log-variance interpolation: γ = 0.3
-- Weight decay: 0.0 
+- Weight decay: 0.0
+
+## More details coming soon...
 
 ### Prerequisites
 
