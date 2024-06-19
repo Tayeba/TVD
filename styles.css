@@ -1,0 +1,115 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+header .authors {
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: 400;
+    color: #666;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 40px; /* 2 lines gap */
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.results {
+    margin-bottom: 40px; /* 2 lines gap */
+}
+
+.equation-box {
+    border: 2px solid #0000ff;      /* Creates a border around the element, 2 pixels thick, with a blue color (#0000ff). */
+    padding: 10px;                  /* Adds 10 pixels of padding inside the border on all sides, providing space between the content and the border. */
+    display: inline-block;          /* Displays the element as an inline-block, which allows it to have a width and height and be centered within its parent. */
+    margin-top: 40px;               /* Adds 40 pixels of margin above the element, creating a space equivalent to approximately 2 lines of text. */
+    margin-bottom: 20px;            /* Adds 20 pixels of margin below the element, creating space between this element and the following content. */
+    text-align: center;             /* Centers the text inside the element. */
+    margin-left: auto;              /* Automatically adjusts the left margin to equally center the element horizontally within its parent container. */
+    margin-right: 0;                /* Sets the right margin to 0, which can help in shifting the element to the right. */
+    transform: translateX(20%);     /* Shifts the element 20% to the right of its current position. Adjust this value as needed. */
+}
+
+.equation {
+    color: #ff0000;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.image-item {
+    margin-top: 60px; /* 3 lines gap between images */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+}
+
+.image-item .first-image {
+    width: 250mm; /* Set width in mm */
+    height: 150mm; /* Set height in mm */
+}
+
+.caption {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.citation {
+    margin-top: 60px; /* 3 lines gap */
+}
+
+.citation h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+.citation p {
+    font-size: 1.1em;
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.citation pre {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1em;
+    overflow-x: auto;
+    color: #2c3e50;
+}
