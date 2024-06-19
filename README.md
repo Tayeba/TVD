@@ -4,7 +4,7 @@
 ### Brief
 This is an official implementation of **THERMAL VIDEODIFF (TVD): A DIFFUSION ARCHITECTURE FOR THERMAL VIDEO SYNTHESIS** by PyTorch.
 
-We list the hyperparameters, training configurations, and computational resources utilized for our TVDv1 model.
+We list the hyperparameters, training configurations, and computational resources utilized for our TVDv1 model as follows:
 
 - Base channels: 256
 - Optimizer: Adam (β1 = 0.9, β2 = 0.99)
