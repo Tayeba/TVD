@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THERMAL VIDEODIFF (TVD)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>THERMAL VIDEODIFF (TVD): A DIFFUSION ARCHITECTURE FOR THERMAL VIDEO
+            SYNTHESIS</h1>
+        <p class="authors">Tayeba Qazi &nbsp;&nbsp; Brejesh Lall &nbsp;&nbsp;</p>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Abstract</h2>
+            <p>Machine perception gathers information about its surround-
+                ings through sophisticated sensors. Thermal sensors offers
+                scalable perception in conditions of low visibility such as
+                night time, smoke or fog. However, integrating thermal
+                data with deep learning algorithms is a challenge because
+                of scarcity of thermal data due to high cost of thermal sen-
+                sors. In this paper, we propose for the first time, a deep
+                learning based framework for thermal video synthesis as an
+                affordable alternative to purchasing costly thermal imaging
+                devices. Here, we have introduced diffusion model for esti-
+                mating thermal videos from videos in the visible spectrum.
+                Results show that our Thermal VideoDiff (TVD) is capa-
+                ble of synthesizing high fidelity video samples and captures
+                temperature variations from thermal data effectively. Our
+                work addresses the challenge posed by the scarcity of ther-
+                mal data, as well as brings deep learning to the domain of
+                infrared video generation, enabling research and develop-
+                ment in infrared domain.</p>
+        </section>
+        <section class="results">
+            <h2>Fundamentals of Thermal Imaging</h2>
+            <div class="image-item">
+                <img src="/home/tayeba107/TAYEBA/ThermalVideoDiff/WEBPAGE_GIT/images/incident.drawio.png" alt="incident">
+                <p class="caption">Illustration: When light is incident on an object, a fraction of the radiation is absorbed, another fraction is reflected, and the remainder is transmitted, with subsequent emission. The emitted radiation depends upon factors such as temperature, material properties, and atmospheric conditions. RGB sensors detect the reflected radiation within the visible spectrum (0.4$\mu m$ - 0.7$\mu m$), while infrared sensors capture the emitted radiation (0.7$\mu m$ - 15$\mu m$). \textcolor {red}{Visible and thermal images are fundamentally different and therefore, deriving emissivity solely from reflected radiation is theoretically implausible. <em>fireworks</em>.</p>
+            </div>
+            <div class="image-item">
+                <img src="images/Sample_thermal.png" alt="SampleThermalImages">
+                <p class="caption">Visible images and their corresponding thermal images from the KAIST and FLIR datasets, illustrating the advantages of thermal imaging in night and low-illumination conditions. <em>fireworks</em>.</p>
+            </div>
+        </section>
+        <section class="citation">
+            <h2>Citation</h2>
+            <p>For more details and additional results, <a href="#">read the full paper</a>.</p>
+            <pre>@article{ho2022video,
+  title={THERMAL VIDEODIFF (TVD): A DIFFUSION ARCHITECTURE FOR THERMAL VIDEO
+    SYNTHESIS},
+  author={Qazi, Tayeba and Lall, Brejesh},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)},
+  year={2024}}
+            </pre>
+        </section>
+    </main>
+</body>
+</html>
