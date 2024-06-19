@@ -45,7 +45,7 @@ If you find our work useful in your research, please cite the following:
 
 ### Contact
 
-For questions about our paper or code, please contact ([qazitayeba@gmail.com]) () or raise an issue on GitHub.
+For questions about our paper or code, please contact [qazitayeba@gmail.com]() or raise an issue on GitHub.
 
 ### Acknowledge
 
