@@ -25,7 +25,7 @@ We list the hyperparameters, training configurations, and computational resource
 - Sampling log-variance interpolation: γ = 0.3
 - Weight decay: 0.0
 
-#More details coming soon...
+# More details coming soon...
 
 ### Prerequisites
 
@@ -45,7 +45,7 @@ If you find our work useful in your research, please cite the following:
 
 ### Contact
 
-For questions about our paper or code, please contact ([qazitayeba@gmail.com]) or raise an issue on GitHub.
+For questions about our paper or code, please contact ([qazitayeba@gmail.com]) () or raise an issue on GitHub.
 
 ### Acknowledge
 
